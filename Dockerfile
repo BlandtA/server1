@@ -16,6 +16,4 @@ RUN npm i cross-env class-validator class-transformer uuid
 
 COPY . .
 
-COPY ./dist ./dist
-
 CMD ["npm", "run", "start:dev"]
